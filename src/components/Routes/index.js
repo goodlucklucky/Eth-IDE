@@ -1,9 +1,9 @@
 import CacheRoute, { CacheSwitch } from 'react-router-cache-route';
-import { CenterScreen, Input, LoadingScreen } from '@obsidians/ui-components';
+import { CenterScreen, Input, LoadingScreen } from '@goodlucklucky/ui-components';
 import React, { Suspense, lazy } from 'react';
 import { Redirect, Route } from 'react-router-dom';
 
-import Auth from '@obsidians/auth';
+import Auth from '@goodlucklucky/auth';
 import BottomBar from './BottomBar';
 
 Input.defaultProps = {

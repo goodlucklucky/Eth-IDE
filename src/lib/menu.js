@@ -1,8 +1,8 @@
 import get from 'lodash/get'
 
-import platform from '@obsidians/platform'
-import { globalModalManager } from '@obsidians/global'
-import { actions as projectActions } from '@obsidians/workspace'
+import platform from '@goodlucklucky/platform'
+import { globalModalManager } from '@goodlucklucky/global'
+import { actions as projectActions } from '@goodlucklucky/workspace'
 
 const handlers = {}
 if (platform.isDesktop) {

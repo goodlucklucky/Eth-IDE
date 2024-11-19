@@ -15646,9 +15646,9 @@ react-is@^18.0.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
   integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
-react-json-view@ObsidianLabs/react-json-view#obsidians:
+react-json-view@goodlucklucky/react-json-view#goodlucklucky:
   version "1.21.3"
-  resolved "https://codeload.github.com/ObsidianLabs/react-json-view/tar.gz/b786b081b0476bb8280938690da39a589e39c46d"
+  resolved "https://codeload.github.com/goodlucklucky/react-json-view/tar.gz/b786b081b0476bb8280938690da39a589e39c46d"
   dependencies:
     flux "^4.0.1"
     react-base16-styling "^0.6.0"
@@ -17290,9 +17290,9 @@ solc@^0.8.0:
     semver "^5.5.0"
     tmp "0.0.33"
 
-solhint@ObsidianLabs/solhint#obsidians:
+solhint@goodlucklucky/solhint#goodlucklucky:
   version "3.3.6"
-  resolved "https://codeload.github.com/ObsidianLabs/solhint/tar.gz/e9b7b11781a82c9ea398a380ec5fc709889e164f"
+  resolved "https://codeload.github.com/goodlucklucky/solhint/tar.gz/e9b7b11781a82c9ea398a380ec5fc709889e164f"
   dependencies:
     "@solidity-parser/parser" "^0.13.2"
     ajv "^6.6.1"
@@ -17321,9 +17321,9 @@ solium-plugin-security@0.1.1:
   resolved "https://registry.npmjs.org/solium-plugin-security/-/solium-plugin-security-0.1.1.tgz#2a87bcf8f8c3abf7d198e292e4ac080284e3f3f6"
   integrity sha512-kpLirBwIq4mhxk0Y/nn5cQ6qdJTI+U1LO3gpoNIcqNaW+sI058moXBe2UiHs+9wvF9IzYD49jcKhFTxcR9u9SQ==
 
-solium@ObsidianLabs/Ethlint:
+solium@goodlucklucky/Ethlint:
   version "1.2.5"
-  resolved "https://codeload.github.com/ObsidianLabs/Ethlint/tar.gz/b0e5168ad446f80bcd5fb1d38b9f12e5eaead822"
+  resolved "https://codeload.github.com/goodlucklucky/Ethlint/tar.gz/b0e5168ad446f80bcd5fb1d38b9f12e5eaead822"
   dependencies:
     ajv "^5.2.2"
     chokidar "^1.6.0"
@@ -17339,9 +17339,9 @@ solium@ObsidianLabs/Ethlint:
     solparse "2.2.8"
     text-table "^0.2.0"
 
-solparse-exp-jb@ObsidianLabs/solparse:
+solparse-exp-jb@goodlucklucky/solparse:
   version "2.2.23"
-  resolved "https://codeload.github.com/ObsidianLabs/solparse/tar.gz/2c8be7a3318865618be1a27477924d9a55bfb47c"
+  resolved "https://codeload.github.com/goodlucklucky/solparse/tar.gz/2c8be7a3318865618be1a27477924d9a55bfb47c"
   dependencies:
     pegjs "^0.10.0"
     yargs "^10.0.3"

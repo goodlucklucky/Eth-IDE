@@ -2,10 +2,10 @@ import '../../scss/welcomepage.scss';
 
 import React, { PureComponent } from 'react';
 
-import Auth from '@obsidians/auth';
-import { actions } from '@obsidians/workspace';
-import { connect } from '@obsidians/redux';
-import platform from '@obsidians/platform';
+import Auth from '@goodlucklucky/auth';
+import { actions } from '@goodlucklucky/workspace';
+import { connect } from '@goodlucklucky/redux';
+import platform from '@goodlucklucky/platform';
 
 const TemplateNames = ['ERC-1155', 'ERC-721', 'ERC-20', 'coin'];
 
@@ -63,9 +63,9 @@ class WelcomePageWithProps extends PureComponent {
           {/* <img src={BLACK_IDE_ICON} /> */}
           <div className="title-image"></div>
           <div className="title-text">
-            <div className="title-h1">Welcome to Black IDE</div>
+            <div className="title-h1">Welcome to Eth IDE</div>
             <div className="desc">
-              Black IDE is an integrated development environment, making
+              Eth IDE is an integrated development environment, making
               developing Ethereum smart contracts faster and easier.
               <br />
               Please follow the instructions below, and start to explorer Black
@@ -76,7 +76,7 @@ class WelcomePageWithProps extends PureComponent {
             <div
               className="title-icon icon-github"
               onClick={() =>
-                this.openLink('https://github.com/ObsidianLabs/Black-IDE')
+                this.openLink('https://github.com/goodlucklucky/Black-IDE')
               }
             ></div>
             <div
@@ -112,7 +112,7 @@ class WelcomePageWithProps extends PureComponent {
           {this.renderTemplatetOptions()}
         </div>
         <div className="section">
-          <div className="subtitle">What Can Black IDE Do?</div>
+          <div className="subtitle">What Can Eth IDE Do?</div>
           <div className="desc">
             These main features upgrade your smart contract building experience.
           </div>
@@ -151,14 +151,14 @@ class WelcomePageWithProps extends PureComponent {
           </div>
         </div>
         <div className="section">
-          <div className="subtitle">Learn More About Black IDE</div>
+          <div className="subtitle">Learn More About Eth IDE</div>
           <div className="desc"></div>
           <div className="options">
             <div
               className="option"
               onClick={() =>
                 this.openLink(
-                  'https://github.com/ObsidianLabs/Black-IDE#readme'
+                  'https://github.com/goodlucklucky/Black-IDE#readme'
                 )
               }
             >
@@ -166,7 +166,7 @@ class WelcomePageWithProps extends PureComponent {
               <div className="option-title">Document</div>
               <div className="option-desc">
                 An English/Chinese tutorial where you can learn all features of
-                Black IDE
+                Eth IDE
               </div>
             </div>
           </div>

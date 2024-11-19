@@ -4,8 +4,8 @@
   "version": "0.31.0",
   "author": {
     "name": "Phil Li",
-    "email": "phil.li@obsidians.io",
-    "url": "https://obsidians.io"
+    "email": "phil.li@goodlucklucky.io",
+    "url": "https://goodlucklucky.io"
   },
   "license": "GPL-3.0",
   "private": true,
@@ -47,9 +47,9 @@
     "prettier": "^2.5.0",
     "prettier-plugin-solidity": "1.0.0-beta.10",
     "socket.io-client": "^2.4.0",
-    "solhint": "ObsidianLabs/solhint#obsidians",
-    "solium": "ObsidianLabs/Ethlint",
-    "solparse-exp-jb": "ObsidianLabs/solparse",
+    "solhint": "goodlucklucky/solhint#goodlucklucky",
+    "solium": "goodlucklucky/Ethlint",
+    "solparse-exp-jb": "goodlucklucky/solparse",
     "strip-ansi": "^6.0.0",
     "trash": "^7.0.0"
   },
@@ -150,7 +150,7 @@
     "not op_mini all"
   ],
   "build": {
-    "productName": "Black IDE",
+    "productName": "Eth IDE",
     "artifactName": "Black-IDE-${version}.${ext}",
     "files": [
       "build/**/*",
@@ -159,7 +159,7 @@
     "publish": [
       {
         "provider": "generic",
-        "url": "http://www.obsidians.io"
+        "url": "http://www.goodlucklucky.io"
       },
       {
         "provider": "github"
@@ -169,7 +169,7 @@
       "buildResources": "assets"
     },
     "mac": {
-      "appId": "com.obsidians.ethereumstudio",
+      "appId": "com.goodlucklucky.ethereumstudio",
       "category": "developer-tools",
       "target": {
         "target": "default",

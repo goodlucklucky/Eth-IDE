@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 
-import Project from '@obsidians/eth-project';
-import { connect } from '@obsidians/redux';
-import platform from '@obsidians/platform';
+import Project from '@goodlucklucky/eth-project';
+import { connect } from '@goodlucklucky/redux';
+import platform from '@goodlucklucky/platform';
 
 class ProjectWithProps extends PureComponent {
   async componentDidMount() {
@@ -30,7 +30,7 @@ class ProjectWithProps extends PureComponent {
 
     return type === 'Local' && platform.isWeb ? null : (
       <Project
-        theme="obsidians"
+        theme="goodlucklucky"
         projectRoot={projectRoot}
         type={type}
         signer={uiState.get('signer')}

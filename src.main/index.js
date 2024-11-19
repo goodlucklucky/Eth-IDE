@@ -3,8 +3,8 @@ const os = require('os');
 const path = require('path');
 const isDev = require('electron-is-dev');
 const shellPath = require('shell-path');
-const { ipc } = require('@obsidians/ipc');
-const { TerminalChannelManager } = require('@obsidians/terminal');
+const { ipc } = require('@goodlucklucky/ipc');
+const { TerminalChannelManager } = require('@goodlucklucky/terminal');
 const getTheLock = app.requestSingleInstanceLock();
 
 if (os.type() === 'Linux') {

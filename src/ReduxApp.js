@@ -1,16 +1,16 @@
 import '@/menu';
 
-import { GlobalModals, autoUpdater } from '@obsidians/global';
+import { GlobalModals, autoUpdater } from '@goodlucklucky/global';
 import React, { Component, Suspense, lazy } from 'react';
-import Welcome, { checkDependencies } from '@obsidians/welcome';
+import Welcome, { checkDependencies } from '@goodlucklucky/welcome';
 import { config, updateStore } from '@/redux';
-import redux, { Provider } from '@obsidians/redux';
+import redux, { Provider } from '@goodlucklucky/redux';
 
-import Auth from '@obsidians/auth';
-import { LoadingScreen } from '@obsidians/ui-components';
-import { NotificationSystem } from '@obsidians/notification';
+import Auth from '@goodlucklucky/auth';
+import { LoadingScreen } from '@goodlucklucky/ui-components';
+import { NotificationSystem } from '@goodlucklucky/notification';
 import Routes from './components/Routes';
-import fileOps from '@obsidians/file-ops';
+import fileOps from '@goodlucklucky/file-ops';
 import icon from './components/icon.png';
 
 const Header = lazy(() =>

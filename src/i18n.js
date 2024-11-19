@@ -1,6 +1,6 @@
 import merge from 'lodash/merge'
-import { init as initI18n, i18n, resources as shareResources } from '@obsidians/i18n'
-import { resources as ethResources } from '@obsidians/eth-i18n'
+import { init as initI18n, i18n, resources as shareResources } from '@goodlucklucky/i18n'
+import { resources as ethResources } from '@goodlucklucky/eth-i18n'
 
 const resources = merge(shareResources, ethResources)
 

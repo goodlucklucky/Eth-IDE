@@ -7,8 +7,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import fileOps from '@obsidians/file-ops';
-import platform from '@obsidians/platform';
+import fileOps from '@goodlucklucky/file-ops';
+import platform from '@goodlucklucky/platform';
 
 if (platform.isDesktop) {
   fileOps.fsType = 'electron';

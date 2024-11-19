@@ -1,10 +1,10 @@
 import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
 import React, { Suspense, lazy, useEffect } from 'react';
 
-import Auth from '@obsidians/auth';
-import { LoadingScreen } from '@obsidians/ui-components';
+import Auth from '@goodlucklucky/auth';
+import { LoadingScreen } from '@goodlucklucky/ui-components';
 import ReactGA from 'react-ga4';
-import platform from '@obsidians/platform';
+import platform from '@goodlucklucky/platform';
 
 const Router = platform.isDesktop ? HashRouter : BrowserRouter;
 const ReduxApp = lazy(() =>

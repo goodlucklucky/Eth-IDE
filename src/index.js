@@ -1,4 +1,4 @@
-import '@obsidians/platform'
+import '@goodlucklucky/platform'
 import $loadjs from 'loadjs'
 
 if (!process.env.CDN) {

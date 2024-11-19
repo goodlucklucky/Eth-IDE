@@ -1,12 +1,12 @@
 import Immutable, { List, Map } from 'immutable';
 
-export { redux as profile } from '@obsidians/auth';
-export { redux as projects } from '@obsidians/workspace';
-export { redux as keypairs } from '@obsidians/keypair';
-export { redux as tokens } from '@obsidians/explorer';
-export { redux as abis } from '@obsidians/eth-sdk';
-export { redux as customNetworks } from '@obsidians/eth-network';
-export { redux as queue } from '@obsidians/queue';
+export { redux as profile } from '@goodlucklucky/auth';
+export { redux as projects } from '@goodlucklucky/workspace';
+export { redux as keypairs } from '@goodlucklucky/keypair';
+export { redux as tokens } from '@goodlucklucky/explorer';
+export { redux as abis } from '@goodlucklucky/eth-sdk';
+export { redux as customNetworks } from '@goodlucklucky/eth-network';
+export { redux as queue } from '@goodlucklucky/queue';
 
 export const version = {
   default: Immutable.fromJS({}),

@@ -1,15 +1,15 @@
 import React, { PureComponent } from 'react';
-import headerActions, { AuthModal, Header, NavGuard } from '@obsidians/header';
-import redux, { connect } from '@obsidians/redux';
+import headerActions, { AuthModal, Header, NavGuard } from '@goodlucklucky/header';
+import redux, { connect } from '@goodlucklucky/redux';
 
-import { BaseProjectManager } from '@obsidians/workspace';
-import EthSdk from '@obsidians/eth-sdk';
-import { IpcChannel } from '@obsidians/ipc';
+import { BaseProjectManager } from '@goodlucklucky/workspace';
+import EthSdk from '@goodlucklucky/eth-sdk';
+import { IpcChannel } from '@goodlucklucky/ipc';
 import { List } from 'immutable';
-import { actions } from '@obsidians/workspace';
+import { actions } from '@goodlucklucky/workspace';
 import { createProject } from '../lib/bsn';
-import keypairManager from '@obsidians/keypair';
-import { networkManager } from '@obsidians/network';
+import keypairManager from '@goodlucklucky/keypair';
+import { networkManager } from '@goodlucklucky/network';
 
 keypairManager.kp = EthSdk.kp;
 networkManager.addSdk(EthSdk, EthSdk.networks);
